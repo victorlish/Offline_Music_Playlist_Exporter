@@ -8,7 +8,7 @@ Generate a M3U8 playlist from folders of song in harddrive.
 4. You are good to go.
 
 ## Usage
-`playlist_generator.py` requires three arguements to run the program.
+`playlist_generator.py` requires three arguements to generate the M3U8 playlist.
 ```
 usage: playlist_generator.py [-h] path playlist {flac,wav,mp3}
 
