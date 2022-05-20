@@ -1,4 +1,4 @@
-# Offline Music Playlist Generator
+# Music Playlist Exporter
 Generate a M3U8 playlist from folders of song in harddrive.
 
 ## Implementation Notes
