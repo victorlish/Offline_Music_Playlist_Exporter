@@ -30,11 +30,12 @@ def main():
         if ext[0] not in lst:
             lst += ext[0] 
 
-        if (filetype == 'wav' or filetype == 'WAV'):
+        filetype.lower()
+        if (filetype == 'wav'):
             filetype = '.wav'
-        elif (filetype == 'mp3' or filetype == 'mp3'):
+        elif (filetype == 'mp3'):
             filetype = '.mp3'
-        elif (filetype == 'flac' or filetype == 'flac'):
+        elif (filetype == 'flac'):
             filetype = '.flac'
 
         src = src + '/**/*' + filetype
